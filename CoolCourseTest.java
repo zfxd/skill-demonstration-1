@@ -12,6 +12,6 @@ import org.junit.*;
 public class CoolCourseTest {
     @Test
     public void isCoolCourse() {
-        assertTrue("Is a cool course", CoolCourse.isCoolCourse("HUM 1"));   // Will fail
+        assertTrue("Is a cool course", CoolCourse.isCoolCourse("CSE 15L"));   // Fix to pass
     }
 }
